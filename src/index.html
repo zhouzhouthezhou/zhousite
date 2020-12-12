@@ -1,121 +1,109 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
 
 <head>
-	<title>About me</title>
-	<link rel="stylesheet" href="global.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+
+	<title>Kyle Zhou's Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Kyle Zhou's personal website/blog">
+	<meta name="author" content="Kyle Zhou">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- My css stuff -->
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Kyle</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<header>
+	<nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark sticky">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar8">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
+		<span class="navbar-text">&nbsp;</span>
+		<div class="navbar-collapse collapse" id="navbar8">
+			<ul class="navbar-nav abs-center-x">
 				<li class="nav-item active">
-					<a class="nav-link" href="mypage_bootstrap.html">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Work</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About Me</a>
+					<a class="nav-link" href="#">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
+</header>
 
-	<div class="maindiv">
-		<div class="container-fluid">
-			<h1>Zhou, Kyle <small>-Student at CU Boulder</small></h1>
-		</div>
-
-		<div>
-			<div class="card bg-light text-dark">
-				<div class="card-body">
-					I can do a lego set that says 3-4 years in a couple months. I am an asian with natrually curly hair.
-					My
-					last name is pronounced "Joe".
-					I am studying CS in case I can't find an EE job.
-				</div>
-			</div>
-		</div>
-
-		<h2>My Profesional Profile</h2>
-		<a class="btn btn-primary" href="https://github.com/zhouzhouthezhou">Kyle's Github</a>
-		<br>
-		<img class="rounded-circle" src="mt_fuji_me.jpg" alt="Summiting Mt. Fuji" height="500">
-
-		<h3>My Favorite Projects</h3>
-		<table class="table">
-			<thead>
-				<th scope="col">Name of Project</th>
-				<th scope="col">Technology Used</th>
-			</thead>
-			<tbody>
-				<tr>
-					<td>What the Click?!</td>
-					<td>Python, Arduino, Qualcom Dragonboard</td>
-				</tr>
-				<tr>
-					<td>Mouse Glove</td>
-					<td>Embedded C, Micropython, EAGLE PCB, ESP32</td>
-				</tr>
-				<tr>
-					<td>FPGA RC/Line Following Robot</td>
-					<td>Verilog, C, NIOS II Assembly, Altera FPGA</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<h3>My Interests</h3>
-		<a type="button" class="btn btn-primary" href="form.html">Add Iterest</a>
-		<div class="row">
-			<div class="card" style="width: 18rem;">
-				<img class="card-img-top"
-					src="https://www.trainingzone.co.uk/sites/default/files/learning_technology_solutions_0.jpg"
-					alt="Technology Image">
-				<div class="card-body">
-					<h5 class="card-title">Technology</h5>
-					<p class="card-text">I am a sucker for anything and everything about computers and technology in
-						general.</p>
-				</div>
-			</div>
-
-			<div class="card" style="width: 18rem;">
-				<img class="card-img-top"
-					src="https://steamuserimages-a.akamaihd.net/ugc/37495060017062760/9972DF8B2CE8812853ED1D13EEE7244F7B1B41A7/?imw=1024&imh=1024&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
-					alt="Technology Image">
-				<div class="card-body">
-					<h5 class="card-title">Video Games</h5>
-					<p class="card-text">Video games have been a huge part of my life and have really shaped who I've
-						become.</p>
-				</div>
-			</div>
-
-			<div class="card" style="width: 18rem;">
-				<img class="card-img-top" src="swimming.jpg" alt="Technology Image">
-				<div class="card-body">
-					<h5 class="card-title">Swimming</h5>
-					<p class="card-text">Its the worst sport in the world but I love it for some reason.</p>
-				</div>
-			</div>
+<body>
+	<div class="bgimg-1">
+		<!-- <div class="caption">
+			<span class="border">Kyle Zhou</span>
+		</div> -->
+		<div class="title">
+			<h1>Kyle Zhou</h1>
+			<h2>Electrical Computer Engineering and Computer Science</h2>
 		</div>
 	</div>
+
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+		<h3 style="text-align:center;">About Me</h3>
+		<p>Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+	</div>
+
+	<div class="bgimg-2">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+		</div>
+	</div>
+
+	<div style="position:relative;">
+		<div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+			<p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+		</div>
+	</div>
+
+	<div class="bgimg-3">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+		</div>
+	</div>
+
+	<div style="position:relative;">
+		<div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+			<p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+		</div>
+	</div>
+
+	<div class="bgimg-1">
+		<div class="caption">
+			<span class="border">COOL!</span>
+		</div>
+	</div>
+
 </body>
 
-</html>
+<footer class="footer">
+	<div class="container">
+		<span class="text-muted">Place sticky footer content here.</span>
+	</div>
+
+	<!-- My JS stuff -->
+	<script src="scripts/global.js"></script>
+</footer>
