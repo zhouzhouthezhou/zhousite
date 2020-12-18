@@ -20,8 +20,8 @@ body, html {
 }
 
 .bgimg-2 {
-	background-image: url("../resources/hawaiirocks.jpg");
-	min-height: 400px;
+	background-image: url("../resources/swimming_2x.jpg");
+	min-height: 50%;
 }
 
 .bgimg-3 {
@@ -32,10 +32,11 @@ body, html {
 .caption {
 	position: absolute;
 	left: 0;
-	top: 50%;
 	width: 100%;
+	top: 50%;
 	text-align: center;
 	color: #000;
+	display: inline-block;
 }
 
 .title {
@@ -48,29 +49,59 @@ body, html {
 	transform: translate(0, -50%);
 }
 
-h1 {
+.center {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	transform: translate(0, -50%);
+}
+
+.name {
 	font-size: 200px;
-	text-shadow: 0px -2px 0px #333, 0px 2px 3px #666;
 }
 
-h2 {
+.namesub {
 	font-size: 50px;
-	text-shadow: 0px -2px 0px #333, 0px 2px 3px #666;
 }
 
-.caption span.border {
+/* .caption span.border {
 	background-color: #111;
 	color: #fff;
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
+	width: 100px;
+} */
+
+.caption button.border {
+	background-color: #111;
+	color: #fff;
+	padding: 9px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	width: 500px;
 }
+
+.caption button.border:hover {
+	background-color: rgb(53, 53, 53);
+	color: #fff;
+	padding: 9px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	width: 500px;
+}
+
 
 h3 {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font: 20px "Lato", sans-serif;
 	color: #111;
+}
+th, td {
+  padding: 20px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
